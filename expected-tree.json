@@ -1,0 +1,259 @@
+{
+  "updateType": "OVERRIDE",
+  "type": "AGENT",
+  "agent": "dotnet-agent",
+  "agentVersion": "24.0.0",
+  "pluginVersion": "24.0.0",
+  "orgToken": "placeholder-org-token",
+  "userKey": "placeholder-user-key",
+  "timeStamp": 1745270400000,
+  "requesterEmail": "qa@example.com",
+  "aggregateModules": false,
+  "preserveModuleStructure": true,
+  "projects": [
+    {
+      "projectToken": "placeholder-project-token-net8",
+      "projectTags": [
+        {
+          "tagKey": "targetFramework",
+          "tagValue": "net8.0"
+        }
+      ],
+      "dependencies": [
+        {
+          "groupId": "",
+          "artifactId": "Newtonsoft.Json",
+          "version": "13.0.3",
+          "systemPath": "",
+          "optional": false,
+          "filename": "Newtonsoft.Json-13.0.3.nupkg",
+          "dependencyType": "NUGET",
+          "children": null,
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": []
+        },
+        {
+          "groupId": "",
+          "artifactId": "Serilog",
+          "version": "3.1.1",
+          "systemPath": "",
+          "optional": false,
+          "filename": "Serilog-3.1.1.nupkg",
+          "dependencyType": "NUGET",
+          "children": null,
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": []
+        },
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.Extensions.Logging",
+          "version": "8.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "Microsoft.Extensions.Logging-8.0.0.nupkg",
+          "dependencyType": "NUGET",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "version": "8.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.Extensions.DependencyInjection.Abstractions-8.0.0.nupkg",
+              "dependencyType": "NUGET",
+              "children": null,
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": []
+            },
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.Logging.Abstractions",
+              "version": "8.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.Extensions.Logging.Abstractions-8.0.0.nupkg",
+              "dependencyType": "NUGET",
+              "children": null,
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": []
+            }
+          ],
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": []
+        }
+      ]
+    },
+    {
+      "projectToken": "placeholder-project-token-net8-windows",
+      "projectTags": [
+        {
+          "tagKey": "targetFramework",
+          "tagValue": "net8.0-windows7.0"
+        }
+      ],
+      "dependencies": [
+        {
+          "groupId": "",
+          "artifactId": "Newtonsoft.Json",
+          "version": "13.0.3",
+          "systemPath": "",
+          "optional": false,
+          "filename": "Newtonsoft.Json-13.0.3.nupkg",
+          "dependencyType": "NUGET",
+          "children": null,
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": []
+        },
+        {
+          "groupId": "",
+          "artifactId": "Serilog",
+          "version": "3.1.1",
+          "systemPath": "",
+          "optional": false,
+          "filename": "Serilog-3.1.1.nupkg",
+          "dependencyType": "NUGET",
+          "children": null,
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": []
+        },
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.Extensions.Logging",
+          "version": "8.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "Microsoft.Extensions.Logging-8.0.0.nupkg",
+          "dependencyType": "NUGET",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "version": "8.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.Extensions.DependencyInjection.Abstractions-8.0.0.nupkg",
+              "dependencyType": "NUGET",
+              "children": null,
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": []
+            },
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.Logging.Abstractions",
+              "version": "8.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.Extensions.Logging.Abstractions-8.0.0.nupkg",
+              "dependencyType": "NUGET",
+              "children": null,
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": []
+            }
+          ],
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": []
+        },
+        {
+          "groupId": "",
+          "artifactId": "CommunityToolkit.Mvvm",
+          "version": "8.2.2",
+          "systemPath": "",
+          "optional": false,
+          "filename": "CommunityToolkit.Mvvm-8.2.2.nupkg",
+          "dependencyType": "NUGET",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "version": "8.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.Extensions.DependencyInjection.Abstractions-8.0.0.nupkg",
+              "dependencyType": "NUGET",
+              "children": null,
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": []
+            },
+            {
+              "groupId": "",
+              "artifactId": "System.Runtime.CompilerServices.Unsafe",
+              "version": "6.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "System.Runtime.CompilerServices.Unsafe-6.0.0.nupkg",
+              "dependencyType": "NUGET",
+              "children": null,
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": []
+            }
+          ],
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": []
+        },
+        {
+          "groupId": "",
+          "artifactId": "Microsoft.Extensions.DependencyInjection",
+          "version": "8.0.0",
+          "systemPath": "",
+          "optional": false,
+          "filename": "Microsoft.Extensions.DependencyInjection-8.0.0.nupkg",
+          "dependencyType": "NUGET",
+          "children": [
+            {
+              "groupId": "",
+              "artifactId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "version": "8.0.0",
+              "systemPath": "",
+              "optional": false,
+              "filename": "Microsoft.Extensions.DependencyInjection.Abstractions-8.0.0.nupkg",
+              "dependencyType": "NUGET",
+              "children": null,
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": []
+            }
+          ],
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": []
+        }
+      ]
+    }
+  ],
+  "extraProperties": {
+    "contributionsAvailable": "false",
+    "commitUrl": "",
+    "gitHubInstallationId": "",
+    "scmApplicationId": "",
+    "branchName": "main",
+    "checkRunId": "",
+    "userOrgToken": "placeholder-user-key",
+    "commitId": "",
+    "scmInstallationId": "",
+    "repository": "nuget-multi-platform",
+    "scaResults": ""
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": ["NUGET"],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "PACKAGES_LOCK_FILE"
+    }
+  },
+  "contributions": []
+}
